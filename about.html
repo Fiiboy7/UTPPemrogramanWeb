@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Rofik's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        footer {
+            width: 100vw; /* Ensures full screen width */
+            margin: 0; /* Removes any inherited margins */
+            background-color: #1f1f1f; /* Same as Tailwind bg-gray-900 */
+        }
+    </style>
+</head>
+
+<body class="text-white w-full min-h-screen">
+    <header class="fixed w-full z-50 bg-gray-900 bg-opacity-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold">Fiiboy</div>
+            <nav class="space-x-6">
+                <a href="index.html" class="hover:underline">Home</a>
+                <a href="about.html" class="underline font-semibold">About</a>
+                <a href="projects.html" class="hover:underline">Projects</a>
+                <a href="skills.html" class="hover:underline">Skills</a>
+                <a href="contact.html" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Me Content -->
+    <section class="pt-28 pb-16 px-6 md:px-24">
+        <h2 class="text-4xl font-bold mb-6 text-center">About Me</h2>
+        <p class="text-gray-300 mb-10 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel viverra lacus, ac egestas metus.</p>
+
+        <!-- Info Section -->
+        <div class="grid md:grid-cols-2 gap-8 items-start mb-12">
+            <!-- Photo Placeholder -->
+            <div class="w-full h-80 bg-gray-700 rounded-lg flex items-center justify-center">
+                <img src="Karina.jpg" alt="Karina" class="w-full h-full object-cover rounded-lg">
+            </div>
+
+            <!-- Personal Info -->
+            <div>
+                <ul class="space-y-2 text-lg">
+                    <li><strong>Name:</strong> Rofik Ramadani</li>
+                    <li><strong>Birthday:</strong> 27 Oktober 2025</li>
+                    <li><strong>City:</strong> Bandar Lampung</li>
+                    <li><strong>Phone:</strong> +62 896-3196-3722</li>
+                    <li><strong>Age:</strong> 20</li>
+                    <li><strong>Email:</strong> ramadhanirofik@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education Timeline -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-semibold mb-6">Education</h3>
+            <div class="border-l-4 border-white pl-6 space-y-6">
+                <div>
+                    <h4 class="font-bold text-lg">SD Negeri 7 Teluk Pandan</h4>
+                    <p class="text-sm text-gray-400">2011 - 2017 | Basic foundational education and character development.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg">SMP Negeri 2 Pesawaran</h4>
+                    <p class="text-sm text-gray-400">2017 - 2020 | Early exposure to sciences and technology.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg">SMA Negeri 1 Padang Cermin</h4>
+                    <p class="text-sm text-gray-400">2020 - 2023 | Focused on science stream and organizational skills.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg">Universitas Lampung</h4>
+                    <p class="text-sm text-gray-400">2023 - Now | Studying Informatics Engineering with passion for UI/UX and development.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personal Interest -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-semibold mb-6">Personal Interests</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-gray-800 p-6 rounded-xl flex flex-col items-center">
+                    <i class="fas fa-gamepad text-4xl mb-4"></i>
+                    <h4 class="text-lg font-semibold mb-2">Gaming</h4>
+                    <p class="text-sm text-gray-400 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl flex flex-col items-center">
+                    <i class="fas fa-camera-retro text-4xl mb-4"></i>
+                    <h4 class="text-lg font-semibold mb-2">Photography</h4>
+                    <p class="text-sm text-gray-400 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl flex flex-col items-center">
+                    <i class="fas fa-book-reader text-4xl mb-4"></i>
+                    <h4 class="text-lg font-semibold mb-2">Reading</h4>
+                    <p class="text-sm text-gray-400 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-6 w-full">
+        <div class="w-full flex justify-between items-center px-8">
+            <p>© 2025 Rofik’s Portfolio. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="https://github.com/Fiiboy7"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/share/1AQCwfhXLo/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/jenaisssante__?igsh=amgzZTJsOGJxZHVw"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rofik-ramadhani-769758327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
